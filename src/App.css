@@ -79,3 +79,14 @@ h5 {
   height: 90%;
 
 }
+
+.cover-img {
+  
+  object-fit: cover;
+}
+
+.cover-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+  cursor: pointer;
+}
